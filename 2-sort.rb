@@ -26,6 +26,7 @@ ARGV.each do |arg|
         end
     end
     result << i_arg if !is_inserted
+    result = result.sort
 end
 
 puts result
